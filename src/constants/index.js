@@ -50,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -81,16 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
   },
   {
     name: "MongoDB",
@@ -108,19 +100,13 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,41 +116,35 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining cross-platform applications using React native.",
+      "Profiency in debugging and testing Native applications to ensure they are stable and free of debugs.",
+      "Knowledge of creating and integrating native modules for platforms-specific functionalities.",
+      "Strong problem-solving abilities to tackle challenges unique to mobile app development.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    icon: meta,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using React.js using dependencies like framer motion, tailwind e.t.c.",
+      "Basic probject management skill to meet deadlines and manage tasks effectively.",
+      "Ability to work collaboratively witg designers, ther developers and stakeholders.",
+      "Being meticulous to ensure code quality and error-free websites.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Graphic Designer",
+    icon: starbucks,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Profiency in selecting and using fonts to enhance readability and convey the right tone and message.",
+      "Skill in arranging visual element, text and images within a composition to create a hermonious balanced.",
+      "Expertise in design software such as Adobe Creative Suite (e.g.,Photoshop, illustratore), Sketch or Figma",
+      "Proficiency in photo editing and manipulating to enhance or retouch images.",
     ],
   },
 ];
@@ -172,35 +152,32 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A very outstanding young Man with great potentials I never tought he could reach this great legnth.",
+    name: "Bitrus Yaka",
+    designation: "CEO",
+    company: "JUV HOT",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I have encountered with different developers but non are compered to this young man.",
+    name: "Amos Sakaba",
+    designation: "Manager",
+    company: "GIG",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "A Brilliant young man with great potentials, he has accomplished thins that are beyond imagening." ,
+    name: "Danjuma Yaka",
+    designation: "Ass Director",
+    company: "NNPC",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that allows you to search for product e.g groceries, jeweries, cars, e.t.c and order them.",
     tags: [
       {
         name: "react",
@@ -219,9 +196,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Juventus Hotel",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Website to a fancy Hotel that gives good relactions, comfort and great spars.",
     tags: [
       {
         name: "react",
@@ -240,9 +217,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "XEX TECH",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Web application for a company that invests in other businesses and also allows other business invests in the and they promote businesses",
     tags: [
       {
         name: "nextjs",
