@@ -57,6 +57,26 @@ const services = [
     title: "Graphic Designer",
     icon: creator,
   },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Next 13",
+    icon: nodejs,
+  },
+  {
+    title: "Typescript",
+    icon: typescript,
+  },
+  {
+    title: "Tailwindcss",
+    icon: tailwind,
+  },
+  {
+    title: "Reactjs",
+    icon: reactjs,
+  },
 ];
 
 const technologies = [
@@ -166,7 +186,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "A Brilliant young man with great potentials, he has accomplished thins that are beyond imagening." ,
+      "A Brilliant young man with great potentials, he has accomplished thins that are beyond imagening.",
     name: "Danjuma Yaka",
     designation: "Ass Director",
     company: "NNPC",
@@ -193,7 +213,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ElBalor",
   },
   {
     name: "Juventus Hotel",
@@ -214,7 +234,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ElBalor",
   },
   {
     name: "XEX TECH",
@@ -235,7 +255,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ElBalor",
   },
 ];
 

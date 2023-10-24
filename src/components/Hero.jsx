@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
-
+import { rainb } from "../assets";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative z-10 w-full h-screen mx-auto`} >
+     
+      
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,7 +18,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#7536cc]'>Eric Yaka</span>
+            Hi, I'm <span className='text-[#9b68e2]'>Eric Yaka</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Web Applications, user <br className='sm:block hidden' />
